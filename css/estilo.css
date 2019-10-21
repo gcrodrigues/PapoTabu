@@ -77,7 +77,21 @@ li{
 /* MAIN */
 
 main{
-    width: 657px;
+    width: 45%;
     margin: 0 auto;
     text-align: justify;
+}
+
+main p{
+    line-height: 1.5;
+    margin:2em 0;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-size: 0.7em;
+}
+
+.increase-letters::first-letter{
+    font-size: 200%;
+    text-shadow: 1px 1px 0 black;
+    font-weight: bold;
+    color: black;
 }
