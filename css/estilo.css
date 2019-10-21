@@ -52,6 +52,11 @@ li{
 
 /* HEADER */
 
+header{
+    background-image: url(/images/bgcapitulo.png);
+    background-position: top center;
+}
+
 .flex-text-header{
     display: flex;
     flex-direction: column;
