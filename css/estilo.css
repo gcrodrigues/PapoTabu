@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'FonteGold';
+    src: url('../font/GoldUnderTheMud-Regular.ttf');
+}
+
 *{
     box-sizing: border-box;
     margin:0;
@@ -94,4 +99,14 @@ main p{
     text-shadow: 1px 1px 0 black;
     font-weight: bold;
     color: black;
+}
+.gold-font{
+    font-family: 'FonteGold';
+    color: #B81A49;
+    text-align: center;
+}
+
+.prox-cap{
+    font-size: 1.5em;
+    margin:0;
 }
