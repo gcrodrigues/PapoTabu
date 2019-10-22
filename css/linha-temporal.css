@@ -1,0 +1,96 @@
+
+
+.container {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #CCD1D9;
+    z-index: 0
+ }
+ 
+ .timeline-block {
+    width: calc(50% + 8px);
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+ }
+
+ .timeline-block-right {
+    float: right;
+ }
+ 
+ .timeline-block-left {
+    float: left;
+    direction: rtl;
+ }
+ 
+ .marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: #b81a49;
+    margin-top: 10px;
+    z-index: 1;
+ }
+ 
+ .timeline-content {
+    width: 95%;
+    padding: 0 15px;
+    color: #666
+ }
+ 
+ .timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Roboto";
+ }
+ 
+ .timeline-content span {
+    font-size: 20px;
+    color: #666666;
+    font-family: "Roboto";
+ }
+ 
+ .timeline-content p {
+    font-size: 14px;
+    line-height: 1.5em;
+    word-spacing: 1px;
+    color: #888;
+    text-align: justify;
+ }
+ 
+ 
+ @media screen and (max-width: 768px) {
+    .container:before {
+       left: 8px;
+       width: 2px;
+    }
+    .timeline-block {
+       width: 100%;
+       margin-bottom: 30px;
+    }
+    .timeline-block-right {
+       float: none;
+    }
+ 
+    .timeline-block-left {
+       float: none;
+       direction: ltr;
+    }
+ }
+ 
