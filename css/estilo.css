@@ -33,6 +33,7 @@ li{
     background-color: #111111;
     width: 100%;
     z-index: 9999;
+    bottom:0 ;
 }
 
 .navegacao-site{
@@ -73,7 +74,7 @@ header{
 }
 
 .logo-principal{
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .flex-text-header p{
@@ -107,6 +108,7 @@ header{
 /* MAIN */
 h1{
     font-size: 4em;
+    margin-top:1em;
 }
 
 .mapa{
@@ -114,17 +116,39 @@ h1{
     margin: 2em 0;
 }
 
+.referencia-mapa{
+    list-style-image: url("../images/map-mark.png");
+
+}
+
+.referencia-mapa li{
+    list-style-type: inherit;
+    color: #111111;
+    margin: 2em 0;
+    font-size: 0.8em;
+    line-height: 1.5;
+    height: 100px;
+    
+}
+
+.resizing{
+    font-family: "Roboto";
+    font-weight:500;
+    font-size: 1.2em;
+}
+
+
 .main{
     width: 45%;
     margin: 0 auto;
-    text-align: justify;
+    text-align: start;
 }
 
 .main p{
     line-height: 1.5;
     margin:2em 0;
     font-family: "Roboto Slab", Arial, sans-serif;
-    font-size: 0.7em;
+    font-size: .8em;
 }
 
 blockquote{
@@ -146,6 +170,80 @@ blockquote{
     color: black;
     margin-right: 2px;;
 }
+
+.citacao1{
+    font-size: 2em;
+    font-family:"Roboto Slab";
+    line-height: 1.2;
+    position: relative;
+}
+
+.citacao1::before{
+    content: '"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    left: -29px;
+    top: -10px;
+}
+
+.citacao1::after{
+    content: '"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+}
+
+.citacoes-cap3{
+    width: 55%;
+    margin:5em auto;
+    line-height: 1.1;
+}
+
+.citacoes-cap3 cite{
+    font-family: "Roboto Slab";
+    font-size: 1.3em;
+    
+}
+
+.cleone{
+    float:left;
+    margin-right: 5em;
+    
+}
+
+.aline{
+    float: right;
+    margin-left: 5em;
+    clear: right;
+}
+
+.cite-aline{
+    clear: inherit;
+    position: relative;
+
+}
+
+.cite-cleone{
+    margin-bottom: 10em;
+    position: relative;
+    
+}
+
+.cite-cleone::before{
+    content:'"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    left: -29px;
+    top: -10px;
+}
+
 .gold-font{
     font-family: 'FonteGold';
     color: #B81A49;
@@ -153,8 +251,8 @@ blockquote{
 }
 
 .prox-cap{
-    font-size: 1.5em;
-    margin:0;
+    font-size: 2em;
+    margin:1em 0;
 }
 
 .inicio-cap{
@@ -177,6 +275,10 @@ blockquote{
     width: 27%;
     text-align: center;
     margin: 2em 0;
+}
+
+.parag-titulo{
+    font-family: "Roboto Slab";
 }
 
 .titulo-capitulo{
@@ -210,6 +312,10 @@ strong{
 
 .cabecalho-capitulo p{
     width: 50%;
+}
+
+.expediente{
+    margin-top: 5em;
 }
 
 /*-------------------------*/
