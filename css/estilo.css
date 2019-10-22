@@ -53,7 +53,7 @@ li{
 /* HEADER */
 
 header{
-    background-image: url(/images/bgcapitulo.png);
+    background-image: url("../images/bgcapitulo.png");
     background-position: top center;
 }
 
@@ -73,6 +73,9 @@ header{
     margin-bottom:10px;
     width:38%;
     text-align: center;
+    color: white;
+    font-family: Roboto;
+    src: url(../font/RobotoSlab-Light.ttf);
 }
 
 .flex-text-header p:nth-child(odd){
@@ -121,6 +124,10 @@ main p{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    background-image: url("../images/bgcapitulo.png");
+    color: white;
+    font-family: Roboto;
+    src: url(../font/RobotoSlab-Light.ttf);
 }
 
 .inicio-cap .gold-font{
