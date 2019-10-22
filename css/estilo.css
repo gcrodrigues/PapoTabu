@@ -3,6 +3,11 @@
     src: url('../font/GoldUnderTheMud-Regular.ttf');
 }
 
+@font-face{
+    font-family: 'RobotoBlack';
+    src: url('../font/Roboto-Black.ttf');
+}
+
 *{
     box-sizing: border-box;
     margin:0;
@@ -55,6 +60,7 @@ li{
 header{
     background-image: url("../images/bgcapitulo.png");
     background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .flex-text-header{
@@ -74,8 +80,7 @@ header{
     width:38%;
     text-align: center;
     color: white;
-    font-family: Roboto;
-    src: url(../font/RobotoSlab-Light.ttf);
+    font-family: "Roboto";
 }
 
 .flex-text-header p:nth-child(odd){
@@ -89,13 +94,13 @@ header{
 
 /* MAIN */
 
-main{
+.main{
     width: 45%;
     margin: 0 auto;
     text-align: justify;
 }
 
-main p{
+.main p{
     line-height: 1.5;
     margin:2em 0;
     font-family: "Roboto Slab", Arial, sans-serif;
@@ -107,11 +112,13 @@ main p{
     text-shadow: 1px 1px 0 black;
     font-weight: bold;
     color: black;
+    margin-right: 2px;;
 }
 .gold-font{
     font-family: 'FonteGold';
     color: #B81A49;
     text-align: center;
+    text-decoration: underline;
 }
 
 .prox-cap{
@@ -126,23 +133,22 @@ main p{
     flex-direction: column;
     background-image: url("../images/bgcapitulo.png");
     color: white;
-    font-family: Roboto;
-    src: url(../font/RobotoSlab-Light.ttf);
+
 }
 
 .inicio-cap .gold-font{
     font-size:1.5em;
 }
 
-.inicio-cap h2{
+.titulo-capitulo{
     text-align: center;
     font-size: 62px;
     text-transform: uppercase;
-    font-family: "Roboto Black";
+    font-family: "Roboto";
 }
 
-.inicio-cap strong{
-    overflow-wrap: break-word;
+.titulo-capitulo > strong{
+    font-family: "RobotoBlack";
 }
 
 
