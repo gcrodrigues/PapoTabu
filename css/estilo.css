@@ -32,6 +32,7 @@ li{
     position: fixed;
     background-color: #111111;
     width: 100%;
+    z-index: 9999;
 }
 
 .navegacao-site{
@@ -59,6 +60,7 @@ li{
 
 header{
     background-image: url("../images/bgcapitulo.png");
+    background-size: 100%;
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -88,11 +90,29 @@ header{
 }
 
 .arrow{
-    margin:60px 0;
+    margin:2em 0;
+    animation: bounce 1s infinite alternate;
 }
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
 /*------------------------*/
 
 /* MAIN */
+h1{
+    font-size: 4em;
+}
+
+.mapa{
+    width: 100%;
+    margin: 2em 0;
+}
 
 .main{
     width: 45%;
@@ -107,6 +127,18 @@ header{
     font-size: 0.7em;
 }
 
+blockquote{
+    background-color: #DEDEDE;
+    color: #666666;
+    width: 15em;
+    max-width: 15em;
+    height: 15em;
+    overflow: scroll; 
+    padding:0 20px;
+    float: right;
+    margin-left: 1em;
+}
+
 .increase-letters::first-letter{
     font-size: 200%;
     text-shadow: 1px 1px 0 black;
@@ -118,7 +150,6 @@ header{
     font-family: 'FonteGold';
     color: #B81A49;
     text-align: center;
-    text-decoration: underline;
 }
 
 .prox-cap{
@@ -132,12 +163,20 @@ header{
     align-items: center;
     flex-direction: column;
     background-image: url("../images/bgcapitulo.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
     color: white;
 
 }
 
 .inicio-cap .gold-font{
-    font-size:1.5em;
+    font-size:1.8em;
+}
+
+.inicio-cap p{
+    width: 27%;
+    text-align: center;
+    margin: 2em 0;
 }
 
 .titulo-capitulo{
@@ -151,10 +190,28 @@ header{
     font-family: "RobotoBlack";
 }
 
-
 strong{
     font-weight: bold;
 }
+
+.cabecalho-capitulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cabecalho-capitulo .gold-font{
+    font-family: "FonteGold";
+    font-size: 1.8em;
+    margin: 1em 0;
+}
+
+.cabecalho-capitulo p{
+    width: 50%;
+}
+
 /*-------------------------*/
 
 /* FOOTER */
