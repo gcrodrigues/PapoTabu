@@ -230,6 +230,7 @@ blockquote{
 
 .cite-aline{
     position: relative;
+    width: 60%;
 }
 
 .cite-cleone::before{
@@ -268,7 +269,7 @@ blockquote{
     font-size: 2em;
     color: #B81A49;
     position: absolute;
-    right:9.2em;
+    left:4.7em;
     bottom:-.4em;
 }
 
@@ -344,16 +345,20 @@ strong{
 }
 
 .expediente{
-    height: 740px;
+    height: 670px;
 }
 /*-------------------------*/
 
 /* FOOTER */
 
+footer{
+    margin-top: 4em;
+}   
+
 footer div{
     width: 35%;
     margin: 0 auto 7em auto; 
-   text-align: center;
+    text-align: center;
 }
 
 footer div p{
