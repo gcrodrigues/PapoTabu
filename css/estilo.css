@@ -112,6 +112,10 @@ h1{
     margin-top:1em;
 }
 
+a{
+    text-decoration: none;
+}
+
 .mapa{
     width: 100%;
     margin: 2em 0;
@@ -344,8 +348,41 @@ strong{
     width: 50%;
 }
 
+/*EXPEDIENTE*/
+
 .expediente{
-    height: 670px;
+    background-image: url("../images/bgcapitulo.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 2.5em;
+}
+
+.expediente .gold-font {
+    font-size: 2em;
+    margin-bottom: .6em;
+}
+
+.criadoras{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.criadoras img{
+    display: block;
+    margin: 0 auto 2em auto;
+    
+}
+
+.criadoras p{
+    display: block;
+    font-family: Roboto;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto 1.5em auto;
 }
 /*-------------------------*/
 
