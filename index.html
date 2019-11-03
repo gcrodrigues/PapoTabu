@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/linha-temporal.css">
-    <script src="script/scroll.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -17,14 +17,14 @@
 <body>
     <header id="resp1"> 
         <div class="flex-nav">
-            <a id="opcao1" href="#resp1"><img src="images/logo-horizontal.svg" alt="Logo pequena da Papo Tabu"></a>
+            <a id="opcao1" href="#resp1" class="scroll"><img src="images/logo-horizontal.svg" alt="Logo pequena da Papo Tabu"></a>
             <nav class="navegacao-site">
                 <ul id="Scroll">
-                    <li><a id="opcao2" href="#resp2">INTRO</a></li>
-                    <li><a id="opcao3" href="#resp3">DAS BOATES AOS CHATS</a></li>
-                    <li><a id="opcao4" href="#resp4">A DIFÍCIL VIDA FÁCIL</a></li>
-                    <li><a id="opcao5" href="#resp5">LOCAL DE FALA</a></li>
-                    <li><a id="opcao6" href="#resp6">O FUTURO ANONIMO</a></li>
+                    <a id="opcao2" href="#resp2" class="scroll"><li>INTRO</li></a>
+                    <a id="opcao3" href="#resp3" class="scroll"><li>DAS BOATES AOS CHATS</li></a>
+                    <a id="opcao4" href="#resp4" class="scroll"><li>A DIFÍCIL VIDA FÁCIL</li></a>
+                    <a id="opcao5" href="#resp5" class="scroll"><li>LOCAL DE FALA</li></a>
+                    <a id="opcao6" href="#resp6" class="scroll"><li>O FUTURO ANONIMO</li></a>
                 </ul>
             </nav> 
             <a href="#"><img class="ig-logo" src="images/logo-ig.png" alt="Logo do Instagram"></a>
@@ -33,7 +33,7 @@
             <a href="index.html""><img class="logo-principal" src="images/Logo.svg" alt="Logo da página Papo Tabu"></a>
             <p>Ao andar pelas ruas do centro da cidade de Santos, é possível encontrar garotas de programa em portas de hotéis e balcões de bares. Porém, uma das profissões mais antigas do mundo agora conta com uma nova aliada: a internet.</p>
             <p>POR JACQUELINE GARCIA E JULIANA CORREIA</p>
-            <a href="#resp2"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
+            <a href="#resp2" class="scroll"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
         </div>
         <!--video-->
     </header>
@@ -148,7 +148,7 @@
              </div>
     </div>
         
-        <a href="#resp3"><p class="gold-font prox-cap">Próximo Capítulo</p></a>
+        <a href="#resp3" class="scroll"><p class="gold-font prox-cap">Próximo Capítulo</p></a>
         <br>
         <br>
         <!--CAPITULO 1-->
@@ -157,7 +157,7 @@
             <p class="gold-font">Capítulo 1</p>
             <h2 class="titulo-capitulo">DAS BOATES <br><strong>AOS CHATS</strong></h2>
             <p class="parag-titulo">Com o advento das redes sociais, as conhecidas “mulheres do mundo” começaram a trabalhar em outro mundo: o digital</p>
-            <a href="#texto2"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
+            <a href="#texto2" class="scroll"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
         </div>
 
     <div class="main" id="texto2">
@@ -329,7 +329,7 @@
         </div>
     </div>
 
-        <a href="#resp4"><p class="gold-font prox-cap">Próximo Capítulo</p></a>
+        <a href="#resp4" class="scroll"><p class="gold-font prox-cap">Próximo Capítulo</p></a>
         <br>
         <br>
 
@@ -338,7 +338,7 @@
             <p class="gold-font">Capítulo 2</p>
             <h2 class="titulo-capitulo">A difícil <br><strong>vida fácil</strong></h2>
             <p class="parag-titulo">Enfatizando Dom Quixote, a puta mais do ninguém sabe a dor e a delícia de ser o que é</p>
-            <a href="#texto3"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
+            <a href="#texto3" class="scroll"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
         </div>
 
     <div class="main" id="texto3">
@@ -757,7 +757,7 @@
         </div>
     </div>
 
-        <a href="#resp5"><p class="gold-font prox-cap">Próximo Capítulo</p></a>
+        <a href="#resp5" class="scroll"><p class="gold-font prox-cap">Próximo Capítulo</p></a>
         <br>
         <br>
 
@@ -765,7 +765,7 @@
             <p class="gold-font">Capítulo 3</p>
             <h2 class="titulo-capitulo">Local <br><strong>de fala</strong></h2>
             <p class="parag-titulo">A regulamentação da prostituição pode gerar muitas dúvidas, mas no fundo o que importa é o bem-estar das garotas</p>
-            <a href="#texto4"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
+            <a href="#texto4" class="scroll"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
         </div>
     <div class="main" id="texto4">
         <div>
@@ -821,7 +821,7 @@
 
         </div>
 
-        <a href="#resp6"><p class="gold-font prox-cap">Próximo Capítulo</p></a>
+        <a href="#resp6" class="scroll"><p class="gold-font prox-cap">Próximo Capítulo</p></a>
         <br>
         <br>
 
@@ -829,7 +829,7 @@
             <p class="gold-font">Capítulo 4</p>
             <h2 class="titulo-capitulo">O futuro <br><strong>anônimo</strong></h2>
             <p class="parag-titulo">O estereótipo da prostituição coloca o futuro de uma garota de programa fadado ao fracasso. Porém, muitos casos contradizem o estigma</p>    
-            <a href="#texto5"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
+            <a href="#texto5" class="scroll"><img class="arrow" src="images/arrow-down.png" alt="Seta de acesso para o conteúdo seguinte da página"></a>
         </div>
 
     <div class="main" id="texto5">
@@ -1002,4 +1002,5 @@
         </div>
     </footer>
 </body>
+<script src="script/scroll.js"></script>
 </html>

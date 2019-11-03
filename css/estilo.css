@@ -15,9 +15,20 @@
 }
 html{
     font-size:120%;
-    scroll-behavior: smooth;
 }
 
+body{
+    animation: fadein 3s;
+}
+
+@keyframes fadein{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
 /* BARRA DE NAVEGAÇÃO */
 
 li{
@@ -29,7 +40,6 @@ li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 10px;
     position: fixed;
     background-color: #111111;
     width: 100%;
@@ -43,8 +53,12 @@ li{
 
 .navegacao-site li{
     display: inline-block;
-    padding: 0px 20px;
     font-size: .7em;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-top: #111111 solid 4px;
+    transition: .6s ease;
+    margin-left: -5px;
 }
 
 .navegacao-site li a{
@@ -53,8 +67,9 @@ li{
     color: #fff;
 }
 
-.navegacao-site li a:hover{
-    color:#B81A49;
+.navegacao-site li:hover{
+    background-color: #242424;
+    border-top: #B81A49 solid 4px;
 }
 /*------------------------*/
 
@@ -79,7 +94,7 @@ header{
 }
 
 .flex-text-header p{
-    margin-top:50px;
+    margin-top:35px;
     margin-bottom:10px;
     width:38%;
     text-align: center;
