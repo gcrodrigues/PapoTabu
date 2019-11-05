@@ -17,7 +17,7 @@ html{
     font-size:120%;
 }
 
-body{
+/*body{
     animation: fadein 2s;
 }
 
@@ -28,7 +28,7 @@ body{
     to{
         opacity:1;
     }
-}
+}*/
 /* BARRA DE NAVEGAÇÃO */
 
 li{
@@ -291,7 +291,7 @@ blockquote{
     top: -.2em;
 }
 
-.cite-cleone::after{
+/* .cite-cleone::after{
     content:'"';
     font-family: "Roboto Slab";
     font-size: 2em;
@@ -299,7 +299,7 @@ blockquote{
     position: absolute;
     right:1.5em;
     bottom: -.4em;
-}
+} */
 
 .cite-aline::before{
     content:'"';
@@ -311,7 +311,7 @@ blockquote{
     top: -.2em;
 }
 
-.cite-aline::after{
+/* .cite-aline::after{
     content:'"';
     font-family: "Roboto Slab";
     font-size: 2em;
@@ -319,7 +319,7 @@ blockquote{
     position: absolute;
     left:4.7em;
     bottom:-.4em;
-}
+} */
 
 
 .gold-font{
