@@ -17,8 +17,8 @@ html{
     font-size:120%;
 }
 
-/*body{
-    animation: fadein 2s;
+.animacao{
+    animation: fadein 2.5s;
 }
 
 @keyframes fadein{
@@ -28,7 +28,7 @@ html{
     to{
         opacity:1;
     }
-}*/
+}
 /* BARRA DE NAVEGAÇÃO */
 
 li{
