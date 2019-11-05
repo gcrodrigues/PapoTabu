@@ -47,6 +47,28 @@ li{
     bottom:0 ;
 }
 
+.creditos{
+    font-size: .7em;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-top: #111111 solid 4px;
+    transition: .6s ease;
+    margin-left: -5px;
+    border-top: #111111 solid 4px;
+    font-family: 'Roboto', sans-serif
+}
+
+.creditos{
+    transition:all 0.3s ease 0s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.creditos:hover{
+    background-color: #242424;
+    border-top: #B81A49 solid 4px;
+}
+
 .navegacao-site{
     list-style: none;
 }
@@ -61,7 +83,7 @@ li{
     margin-left: -5px;
 }
 
-.navegacao-site li a{
+.navegacao-site a{
     transition:all 0.3s ease 0s;
     text-decoration: none;
     color: #fff;
@@ -71,16 +93,28 @@ li{
     background-color: #242424;
     border-top: #B81A49 solid 4px;
 }
+
+.ig-logo:hover{
+    background:url("../images/logo-branco.png");
+}
 /*------------------------*/
 
 /* HEADER */
 
 header{
     background-image: url("../images/bgcapitulo.png");
-    background-size: 100%;
-    background-position: top center;
     background-repeat: no-repeat;
-    box-shadow: 0px 5px 20px 0px #808080;
+    background-size:100%;
+    background-position: top center;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
 }
 
 .flex-text-header{
@@ -88,10 +122,6 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo-principal{
-    margin-top: 40px;
 }
 
 .flex-text-header p{
@@ -105,9 +135,10 @@ header{
 
 .flex-text-header p:nth-child(odd){
     font-size: 0.75em;
+    margin-bottom: 4.5em;
 }
 
-.arrow{
+/*.arrow{
     margin:2em 0;
     animation: bounce 1s infinite alternate;
 }
@@ -119,14 +150,11 @@ header{
     to {
       transform: translateY(-15px);
     }
-  }
+  }*/
+
 /*------------------------*/
 
 /* MAIN */
-h1{
-    font-size: 4em;
-    margin-top:1em;
-}
 
 a{
     text-decoration: none;
@@ -314,7 +342,7 @@ blockquote{
     background-repeat:no-repeat;
     background-size: 100%;
     color: white;
-    box-shadow: 0px 5px 10px 2px #808080;
+    box-shadow: 0px 5px 10px 2px #808080;  
 }
 
 .inicio-cap .gold-font{
