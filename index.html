@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/linha-temporal.css">
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -15,20 +15,21 @@
     <title>Papo Tabu</title>
 </head>
 <body>
+    <div class="flex-nav">
+        <a id="opcao1" href="#resp1" class="scroll"><img src="images/logo-horizontal.svg" alt="Logo pequena da Papo Tabu"></a>
+        <nav class="navegacao-site">
+            <ul id="Scroll">
+                <a id="opcao2" href="#resp2" class="scroll"><li>INTRO</li></a>
+                <a id="opcao3" href="#resp3" class="scroll"><li>DAS BOATES AOS CHATS</li></a>
+                <a id="opcao4" href="#resp4" class="scroll"><li>A DIFÍCIL VIDA FÁCIL</li></a>
+                <a id="opcao5" href="#resp5" class="scroll"><li>LOCAL DE FALA</li></a>
+                <a id="opcao6" href="#resp6" class="scroll"><li>O FUTURO ANONIMO</li></a>
+            </ul>
+        </nav> 
+        <a href="#"><img class="ig-logo" src="images/logo-ig.png" alt="Logo do Instagram"></a>
+    </div>
     <header id="resp1"> 
-        <div class="flex-nav">
-            <a id="opcao1" href="#resp1" class="scroll"><img src="images/logo-horizontal.svg" alt="Logo pequena da Papo Tabu"></a>
-            <nav class="navegacao-site">
-                <ul id="Scroll">
-                    <a id="opcao2" href="#resp2" class="scroll"><li>INTRO</li></a>
-                    <a id="opcao3" href="#resp3" class="scroll"><li>DAS BOATES AOS CHATS</li></a>
-                    <a id="opcao4" href="#resp4" class="scroll"><li>A DIFÍCIL VIDA FÁCIL</li></a>
-                    <a id="opcao5" href="#resp5" class="scroll"><li>LOCAL DE FALA</li></a>
-                    <a id="opcao6" href="#resp6" class="scroll"><li>O FUTURO ANONIMO</li></a>
-                </ul>
-            </nav> 
-            <a href="#"><img class="ig-logo" src="images/logo-ig.png" alt="Logo do Instagram"></a>
-        </div>
+        
         <div class="flex-text-header">
             <a href="index.html""><img class="logo-principal" src="images/Logo.svg" alt="Logo da página Papo Tabu"></a>
             <p>Ao andar pelas ruas do centro da cidade de Santos, é possível encontrar garotas de programa em portas de hotéis e balcões de bares. Porém, uma das profissões mais antigas do mundo agora conta com uma nova aliada: a internet.</p>
@@ -40,7 +41,7 @@
 
     <div class="main" id="resp2">
         <!--INTRODUÇÃO-->
-        <h1 class="gold-font">Papo Tabu</h1>
+        <h1 data-aos="fade-up" class="gold-font">Papo Tabu</h1>
         <p class="increase-letters">
             Celular na mão. A mesma posição de sempre no sofá.
             Abraçar os joelhos enquanto tecla rapidamente em busca de clientes já se tornou rotina.
@@ -95,7 +96,7 @@
 
                 <div class="timeline-block timeline-block-right">
                    <div class="marker"></div>
-                   <div class="timeline-content">
+                   <div class="timeline-content" data-aos="fade-left">
                       <h3>1900</h3>
                       <span>Inauguração do Porto de Santos</span>
                      
@@ -104,7 +105,7 @@
              
                 <div class="timeline-block timeline-block-left">
                    <div class="marker"></div>
-                   <div class="timeline-content">
+                   <div class="timeline-content" data-aos="fade-right">
                       <h3>1920</h3>
                       <span>Início da badalada noite santista</span>
                       <p>Os primeiros estabelecimentos que fizeram a alegria dos moradores da região, visitantes e estrangeiros foram: 
@@ -115,7 +116,7 @@
              
                 <div class="timeline-block timeline-block-right">
                    <div class="marker"></div>
-                   <div class="timeline-content">
+                   <div class="timeline-content" data-aos="fade-left">
                       <h3>1940</h3>
                       <span>Auge da noite boêmia</span>
                       <p>Os “anos dourados” englobam as décadas de 1930, 40 e 50. 
@@ -125,7 +126,7 @@
              
                 <div class="timeline-block timeline-block-left">
                    <div class="marker"></div>
-                   <div class="timeline-content">
+                   <div class="timeline-content" data-aos="fade-right">
                       <h3>1960</h3>
                       <span>A tecnologia reflete no turismo e agitação</span>
                       <p>Com os processos de carga e descarga se modernizando, 
@@ -138,7 +139,7 @@
              
                 <div class="timeline-block timeline-block-right">
                    <div class="marker"></div>
-                   <div class="timeline-content">
+                   <div class="timeline-content" data-aos="fade-left">
                       <h3>1990</h3>
                       <span>Santos se torna a capital nacional da Aids</span>
                       <p> A quantidade de pessoas infectadas na região fizeram com que a cidade ganhasse o terrível título. No entanto, 
@@ -1001,6 +1002,9 @@
             <p>&copy; 2019 Papo Tabu</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="script/scroll.js"></script>
+    <script src="script/hide-show.js"></script>
 </body>
-<script src="script/scroll.js"></script>
 </html>
