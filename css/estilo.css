@@ -18,7 +18,7 @@ html{
 }
 
 body{
-    animation: fadein 3s;
+    animation: fadein 2s;
 }
 
 @keyframes fadein{
@@ -80,6 +80,7 @@ header{
     background-size: 100%;
     background-position: top center;
     background-repeat: no-repeat;
+    box-shadow: 0px 5px 20px 0px #808080;
 }
 
 .flex-text-header{
@@ -313,7 +314,7 @@ blockquote{
     background-repeat:no-repeat;
     background-size: 100%;
     color: white;
-
+    box-shadow: 0px 5px 10px 2px #808080;
 }
 
 .inicio-cap .gold-font{
@@ -421,4 +422,8 @@ footer div p{
     font-size: 0.7em;
     line-height: 1.5;
     margin-bottom:2em;
+}
+
+.hideme{
+    opacity: 0;
 }
