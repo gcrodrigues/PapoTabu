@@ -1,0 +1,15 @@
+.parag-intro-header{
+    margin-top:35px;
+    margin-bottom:10px;
+    width:38%;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.parag-intro-header:nth-child(odd){
+    font-size: 0.75em;
+}
+
+header .elementos-flex{
+    width: auto;
+}

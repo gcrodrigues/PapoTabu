@@ -1,0 +1,26 @@
+.citacao1{
+    font-size: 2em;
+    font-family:"Roboto Slab";
+    line-height: 1.2;
+    position: relative;
+}
+
+.citacao1::before{
+    content: '"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    left: -29px;
+    top: -10px;
+}
+
+.citacao1::after{
+    content: '"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+} 

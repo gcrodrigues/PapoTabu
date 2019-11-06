@@ -1,0 +1,31 @@
+.mapa{
+    width: 100%;
+    margin: 2em 0;
+}
+
+.referencia-mapa{
+    list-style-image: url("../images/map-mark.png");
+
+}
+
+.referencia-mapa li{
+    list-style-type: inherit;
+    color: #111111;
+    margin: 2em 0;
+    font-size: 0.8em;
+    line-height: 1.5;
+    height: 100px;
+    
+}  
+    
+blockquote{
+    background-color: #DEDEDE;
+    color: #666666;
+    width: 15em;
+    max-width: 15em;
+    height: 15em;
+    overflow: scroll; 
+    padding: 0 1em;
+    float: right;
+    margin-left: 1em;
+}

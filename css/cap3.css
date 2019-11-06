@@ -1,0 +1,73 @@
+.citacoes-cap3{
+    width: 55%;
+    margin:5em auto;
+    line-height: 1.3;
+}
+
+.citacoes-cap3 p{
+    font-family: "Roboto Slab";
+    font-size: 1.3em;
+    
+}
+
+.cleone{
+    float:left;
+    margin-right: 5em;
+    
+}
+
+.aline{
+    float: right;
+    margin-left: 5em;
+    clear: right;
+}
+
+.cleone-div{
+    margin-bottom: 10em;
+     position: relative;
+}
+
+.cite-aline{
+    position: relative;
+    width: 60%;
+}
+
+.cite-cleone::before{
+    content:'"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    left: 6em;
+    top: -.2em;
+}
+
+.cite-cleone::after{
+    content:'"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    right:1.5em;
+    bottom: -.4em;
+}
+
+.cite-aline::before{
+    content:'"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    left: -.7em;
+    top: -.2em;
+}
+
+.cite-aline::after{
+    content:'"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    left:4.7em;
+    bottom:-.4em;
+}

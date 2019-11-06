@@ -1,0 +1,168 @@
+@font-face{
+    font-family: 'FonteGold';
+    src: url('../font/GoldUnderTheMud-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'RobotoBlack';
+    src: url('../font/Roboto-Black.ttf');
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:120%;
+}
+
+.animacao{
+    animation: fadein 2.5s;
+}
+
+@keyframes fadein{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+/*-----BARRA DE NAVEGAÇÃO-----*/
+
+li{
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #111111;
+    width: 100%;
+    z-index: 9999;
+    bottom:0 ;
+}
+
+.navegacao-site{
+    list-style: none;
+}
+
+.navegacao-site li{
+    display: inline-block;
+    font-size: .7em;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-top: #111111 solid 4px;
+    transition: .6s ease;
+    margin-left: -5px;
+}
+
+.navegacao-site a{
+    transition:all 0.3s ease 0s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navegacao-site li:hover{
+    background-color: #242424;
+    border-top: #B81A49 solid 4px;
+}
+
+.ig-logo:hover{
+    background:url("../images/logo-branco.png");
+}
+
+/*----HEADER----*/
+    header{
+        background-image: url("../images/bgcapitulo.png");
+        background-repeat: no-repeat;
+        background-size:100%;
+        height: calc(100vh - 57px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+
+    header .elementos-flex{
+        width: 50%;
+    }
+    
+    .elementos-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .elementos-flex p{
+        margin: 2rem 0;
+    }
+
+    .elementos-flex .gold-font{
+        font-size:1.8em;
+    }
+
+    .titulo-capitulo{
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-family: "Roboto";
+    }
+
+    .segundo-parag-titulo{
+        font-family: "Roboto Slab";
+        width: 50%;
+    }
+/*----MAIN----*/
+
+a{
+    text-decoration: none;
+}
+
+.resizing{
+    font-family: "Roboto";
+    font-weight:500;
+    font-size: 1.2em;
+}
+
+.main{
+    width: 30rem;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.main p{
+    line-height: 1.5;
+    margin:2em 0;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-size: .8em;
+}
+
+.increase-letters::first-letter{
+    font-size: 200%;
+    text-shadow: 1px 1px 0 black;
+    font-weight: bold;
+    color: black;
+    margin-right: 2px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.prox-cap{
+    font-size: 2em;
+    margin:4rem 0;
+}
+
+.gold-font{
+    font-family: 'FonteGold' !important;
+    color: #B81A49;
+    text-align: center;
+}
