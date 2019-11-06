@@ -71,3 +71,8 @@
     left:4.7em;
     bottom:-.4em;
 }
+
+#opcao5 li{
+    background-color: #242424;
+    border-top: #B81A49 solid 4px;
+}

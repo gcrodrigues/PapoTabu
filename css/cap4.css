@@ -53,3 +53,8 @@ footer div p{
     line-height: 1.5;
     margin-bottom:2em;
 }
+
+#opcao6 li{
+    background-color: #242424;
+    border-top: #B81A49 solid 4px;
+}

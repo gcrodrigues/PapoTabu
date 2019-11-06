@@ -81,7 +81,7 @@ li{
     header{
         background-image: url("../images/bgcapitulo.png");
         background-repeat: no-repeat;
-        background-size:100%;
+        background-size:cover;
         height: calc(100vh - 57px);
         display: flex;
         align-items: center;
@@ -166,3 +166,31 @@ strong{
     color: #B81A49;
     text-align: center;
 }
+
+/*-------CAP2 E CAP4------*/
+.citacao1{
+    font-size: 2em;
+    font-family:"Roboto Slab";
+    line-height: 1.2;
+    position: relative;
+}
+
+.citacao1::before{
+    content: '"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    left: -29px;
+    top: -10px;
+}
+
+.citacao1::after{
+    content: '"';
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    color: #B81A49;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+} 

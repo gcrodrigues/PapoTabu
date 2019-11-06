@@ -29,3 +29,8 @@ blockquote{
     float: right;
     margin-left: 1em;
 }
+
+#opcao3 li{
+    background-color: #242424;
+    border-top: #B81A49 solid 4px;
+}
