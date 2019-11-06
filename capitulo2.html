@@ -13,6 +13,9 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.css">
+        <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css"> 
+        <link rel="stylesheet" href="css/docs.theme.min.css"> 
         <title>Papo Tabu - Capítulo 2</title>
 </head>
 <body>
@@ -160,6 +163,68 @@
                 </p>
     
                 <!--galeria de fotos-->
+                <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <h4>1</h4>
+                        </div>
+                        <div class="item">
+                          <h4>2</h4>
+                        </div>
+                        <div class="item">
+                          <h4>3</h4>
+                        </div>
+                        <div class="item">
+                          <h4>4</h4>
+                        </div>
+                        <div class="item">
+                          <h4>5</h4>
+                        </div>
+                        <div class="item">
+                          <h4>6</h4>
+                        </div>
+                        <div class="item">
+                          <h4>7</h4>
+                        </div>
+                        <div class="item">
+                          <h4>8</h4>
+                        </div>
+                        <div class="item">
+                          <h4>9</h4>
+                        </div>
+                        <div class="item">
+                          <h4>10</h4>
+                        </div>
+                        <div class="item">
+                          <h4>11</h4>
+                        </div>
+                        <div class="item">
+                          <h4>12</h4>
+                        </div>
+                </div>
+                <script>
+                        $(document).ready(function() {
+                          var owl = $('.owl-carousel');
+                          owl.owlCarousel({
+                            stagePadding: 50,
+                            margin: 10,
+                            nav: true,
+                            loop: true,
+                            responsive: {
+                              0: {
+                                items: 1
+                              },
+                              600: {
+                                items: 3
+                              },
+                              1000: {
+                                items: 5
+                              }
+                            }
+                          })
+                        })
+                </script>
+                <script src="vendors/jquery.min.js"></script>
+                <script src="owlcarousel/owl.carousel.js"></script>
     
                 <h2 class="resizing"><strong>Corpo e mente sem paz</strong></h2>
                 <p>
