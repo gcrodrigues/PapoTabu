@@ -75,6 +75,7 @@ li{
 
 #insta{
     transition:all 0.3s ease 0s;
+    cursor: pointer;
 }
 /*----HEADER----*/
     header{
