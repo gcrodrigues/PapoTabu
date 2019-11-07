@@ -14,21 +14,6 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
         <title>Papo Tabu - Capítulo 2</title>
-        <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="script/jquery-3.4.1.min.js"></script>
-        <script>
-            $(function(){
-                $('.thumbs img').click(function(){
-                    var cover = $('.cover img');
-                    var thumb = $(this).attr('src');
-
-                    cover.fadeTo('200', "0", function() {
-                        cover.attr('src', thumb);
-                        cover.fadeTo('150', '1')
-                    });
-                });
-            });
-        </script>
 </head>
 <body>
         <div class="flex-nav">
@@ -54,7 +39,6 @@
         </header>
         
         <div class="main">
-            <div>
                 <div class="elementos-flex">
                     <p class="gold-font">Capítulo 2</p>
                     <h2 class="titulo-capitulo">A difícil <br><strong>vida fácil</strong></h2>
@@ -173,21 +157,22 @@
                 <p>
                     Em relação às drogas, algumas meninas confessaram fumar maconha, mas nenhuma delas faz a ligação do trabalho com o uso da erva. Segundo elas, o consumo não é diário, geralmente aos finais de semana, e quase sempre sozinhas.
                 </p>
-    
+            </div>
                 <!--galeria de fotos-->
-                <article class="carrosel">
-                    <div class="cover">
-                        <img src="images/carrosel/DSC_0068.JPG">
-                    </div>
-                    <div class="thumbs">
-                        <img src="images/carrosel/DSC_0068.JPG" class="active"> 
-                        <img src="images/carrosel/DSC_0030.JPG">
-                        <img src="images/carrosel/DSC_0069.JPG">
-                        <img src="images/carrosel/DSC_0072.JPG">
-                    </div>
-                </article>
-                
-    
+                <div class="teste">
+                    <article class="carrosel">
+                        <div class="cover">
+                            <img src="images/carrosel/DSC_0068.JPG">
+                        </div>
+                        <div class="thumbs">
+                            <img src="images/carrosel/DSC_0068.JPG" class="active"> 
+                            <img src="images/carrosel/DSC_0030.JPG">
+                            <img src="images/carrosel/DSC_0069.JPG">
+                            <img src="images/carrosel/DSC_0072.JPG">
+                        </div>
+                    </article>
+                </div>
+            <div class="main">
                 <h2 class="resizing"><strong>Corpo e mente sem paz</strong></h2>
                 <p>
                     Muitos assimilam a puta com as drogas, antidepressivos e bebidas, porém, o psicólogo existencialista, Jarvet Falleiros Júnior, atribui a dependência e o uso de certas substâncias à sobrecarga do trabalho (não exclusivo a prostituição), moralismo da sociedade e correria do dia a dia.
@@ -249,13 +234,28 @@
                 <p>
                     Por mais que não exista uma vacina, a realidade que vivemos, aproximadamente 40 anos depois descoberta do vírus, é revolucionário. Tudo isso permite que as profissionais do sexo levem uma vida muito menos conturbada em relação às doenças e até mesmo gravidez indesejada. As camisinhas e anticoncepcionais são utilizados por todas as entrevistadas. As consultas e exames de rotina também são feitas semestralmente ou, mais tardar, anualmente.
                 </p>
-            </div>
-        </div>
+        
     
             <a href="capitulo3.html"><p class="gold-font prox-cap">Próximo Capítulo</p></a>
             <br>
             <br>
+        </div>
     </div>
+        <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="script/jquery-3.4.1.min.js"></script>
+        <script>
+            $(function(){
+                $('.thumbs img').click(function(){
+                    var cover = $('.cover img');
+                    var thumb = $(this).attr('src');
+
+                    cover.fadeTo('200', "0", function() {
+                        cover.attr('src', thumb);
+                        cover.fadeTo('150', '1')
+                    });
+                });
+            });
+        </script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="script/scroll.js"></script>
