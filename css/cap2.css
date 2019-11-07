@@ -6,6 +6,7 @@
 .carrosel{
     float: left;
     width: 110vh;
+    max-width: 110vh;
     margin: 10px;
     padding: 10px;
     background: #fff;
