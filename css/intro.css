@@ -19,6 +19,6 @@ header .elementos-flex{
 }
 
 .transicao .elementos-flex p{
-    
     width: 100%;
+    font-family: 'Roboto';
 }
