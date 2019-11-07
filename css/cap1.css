@@ -3,10 +3,10 @@
     margin: 2em 0;
 }
 
-.referencia-mapa{
+/* .referencia-mapa{
     list-style-image: url("../images/map-mark.png");
 
-}
+} */
 
 .referencia-mapa li{
     list-style-type: inherit;
@@ -34,3 +34,28 @@ blockquote{
     background-color: #242424;
     border-top: #B81A49 solid 4px;
 }
+
+.fas{
+    font-size: 48px;
+    left: -440px;
+    float: left;
+    margin-right:1rem;
+}
+
+.laranja{
+    color: orange;
+}
+
+.marrom{
+    color: brown;
+}
+
+.roxo{
+    color: purple;
+}
+
+.rosa{
+    color: #B81A49;
+}
+
+
