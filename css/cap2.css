@@ -55,3 +55,13 @@
 .thumb img.active{
     background: black;
 }
+
+.video{
+    width: 100%;
+    margin: 2em 0 2em 0;
+}
+
+.video div{
+    margin-left: auto;
+    margin-right: auto;
+}

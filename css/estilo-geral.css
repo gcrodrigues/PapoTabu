@@ -117,6 +117,7 @@ li{
     .segundo-parag-titulo{
         font-family: "Roboto Slab";
         width: 50%;
+        line-height: 1.5;
     }
 /*----MAIN----*/
 
@@ -131,7 +132,7 @@ a{
 }
 
 .main{
-    width: 30rem;
+    width: 31rem;
     margin: 0 auto;
     text-align: start;
 }
@@ -168,7 +169,7 @@ strong{
 
 /*-------CAP2 E CAP4------*/
 .citacao1{
-    font-size: 2em;
+    font-size: 1.3em;
     font-family:"Roboto Slab";
     line-height: 1.2;
     position: relative;
@@ -191,5 +192,5 @@ strong{
     color: #B81A49;
     position: absolute;
     right: -30px;
-    bottom: -30px;
+    bottom: -18px;
 } 

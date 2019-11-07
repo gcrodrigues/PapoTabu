@@ -30,6 +30,11 @@
 .cite-aline{
     position: relative;
     width: 60%;
+    margin-bottom: 10px;
+}
+
+.cite-cleone{
+    margin-bottom: 10px;
 }
 
 .cite-cleone::before{
@@ -49,7 +54,7 @@
     color: #B81A49;
     position: absolute;
     right:1.5em;
-    bottom: -.4em;
+    bottom: .8em;
 }
 
 .cite-aline::before{
@@ -72,7 +77,37 @@
     bottom:-.4em;
 }
 
+.cit{
+    font-family:"Roboto Slab";
+    color: #c3c1c2;
+}
+
 #opcao5 li{
     background-color: #242424;
     border-top: #B81A49 solid 4px;
+}
+
+.podcast{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background-color: #B81A49;
+}
+
+.podcast div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.podcast div p{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
 }

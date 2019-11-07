@@ -13,3 +13,12 @@
 header .elementos-flex{
     width: auto;
 }
+
+.transicao{
+    margin: 2rem;
+}
+
+.transicao .elementos-flex p{
+    
+    width: 100%;
+}
