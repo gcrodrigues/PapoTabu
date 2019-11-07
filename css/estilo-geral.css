@@ -73,10 +73,9 @@ li{
     border-top: #B81A49 solid 4px;
 }
 
-.ig-logo:hover{
-    background:url("../images/logo-branco.png");
+#insta{
+    transition:all 0.3s ease 0s;
 }
-
 /*----HEADER----*/
     header{
         background-image: url("../images/bgcapitulo.png");
