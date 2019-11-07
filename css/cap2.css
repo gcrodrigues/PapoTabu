@@ -2,3 +2,48 @@
     background-color: #242424;
     border-top: #B81A49 solid 4px;
 }
+
+.carrosel{
+    float: left;
+    width: 110vh;
+    margin: 10px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.cover img{
+    float: left;
+    width: 100%;
+    padding: 2.5px;
+    background: #eee;
+    cursor: pointer;
+}
+.thumbs{
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    padding: 2.5px;
+    background: #eee;
+}
+
+.thumbs img{
+    float: left;
+    width: 20%;
+    padding: 2.5px;
+    background: #eee;
+    cursor: pointer;
+}
+
+.thumbs img:hover,
+
+.thumb img.active{
+    background: black;
+}

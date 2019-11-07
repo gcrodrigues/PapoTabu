@@ -14,6 +14,21 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
         <title>Papo Tabu - Capítulo 2</title>
+        <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="script/jquery-3.4.1.min.js"></script>
+        <script>
+            $(function(){
+                $('.thumbs img').click(function(){
+                    var cover = $('.cover img');
+                    var thumb = $(this).attr('src');
+
+                    cover.fadeTo('200', "0", function() {
+                        cover.attr('src', thumb);
+                        cover.fadeTo('150', '1')
+                    });
+                });
+            });
+        </script>
 </head>
 <body>
         <div class="flex-nav">
@@ -160,6 +175,18 @@
                 </p>
     
                 <!--galeria de fotos-->
+                <article class="carrosel">
+                    <div class="cover">
+                        <img src="images/carrosel/DSC_0068.JPG">
+                    </div>
+                    <div class="thumbs">
+                        <img src="images/carrosel/DSC_0068.JPG" class="active"> 
+                        <img src="images/carrosel/DSC_0030.JPG">
+                        <img src="images/carrosel/DSC_0069.JPG">
+                        <img src="images/carrosel/DSC_0072.JPG">
+                    </div>
+                </article>
+                
     
                 <h2 class="resizing"><strong>Corpo e mente sem paz</strong></h2>
                 <p>
