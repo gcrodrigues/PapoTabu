@@ -1,0 +1,17 @@
+/* tira contagem das fotos */
+.owl-dots{
+    display: none;
+}
+
+.item{
+    margin: 0 -5px;
+}
+
+.erro{
+    height: 203.16px;
+}
+
+.owl-carousel{
+    margin: 2rem 0;
+
+}
