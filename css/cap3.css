@@ -37,7 +37,7 @@
     margin-bottom: 10px;
 }
 
-.cite-cleone::before{
+/* .cite-cleone::before{
     content:'"';
     font-family: "Roboto Slab";
     font-size: 2em;
@@ -75,6 +75,11 @@
     position: absolute;
     left:4.7em;
     bottom:-.4em;
+} */
+
+.aspas{
+    color: #B81A49;
+    font-size: 2em;
 }
 
 .cit{
