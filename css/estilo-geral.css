@@ -202,3 +202,99 @@ strong{
     align-items: center;
     justify-content: space-around;
 }
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+    header{
+        background-size: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    header .elementos-flex{
+        width: 100%;
+    }
+    
+    .elementos-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .elementos-flex p{
+        margin: 2rem 0;
+        font-size: 15px;
+    }
+    .elementos-flex img{
+        width: 70%;
+        padding-top: 1em;
+    }
+  
+    .resizing{
+        font-family: "Roboto";
+        font-weight:300;
+        font-size: 1.2em;
+    }
+    
+    .main{
+        width: 13rem;
+        margin: 0 auto;
+        text-align: start;
+    }
+    
+    .main p{
+        line-height: 1.5;
+        margin:2rem 0;
+        font-family: "Roboto Slab", Arial, sans-serif;
+        font-size: .8em;
+    }
+    
+    .increase-letters::first-letter{
+        font-size: 200%;
+        text-shadow: 1px 1px 0 black;
+        font-weight: bold;
+        color: black;
+        margin-right: 2px;
+    }
+    
+    strong{
+        font-weight: bold;
+    }
+    
+    .prox-cap{
+        font-size: 2em;
+        margin:4rem 0;
+    }
+    
+    .gold-font{
+        font-family: 'FonteGold' !important;
+        color: #B81A49;
+        text-align: center;
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+        align-content: center;
+    }
+
+}
+
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
+
+
+@media only screen and (max-width: 736px) and (max-height: 414px) {
+    
+}
