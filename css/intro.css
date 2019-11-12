@@ -8,6 +8,7 @@
 
 .parag-intro-header:nth-child(odd){
     font-size: 0.75em;
+    margin: 0;
 }
 
 header .elementos-flex{
