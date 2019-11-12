@@ -35,6 +35,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed !important;
     background-size: cover !important;
+    background-position: center center !important;
     height: 100%;
 }
 /*-----BARRA DE NAVEGAÇÃO-----*/
@@ -276,6 +277,10 @@ strong{
     }
     header .elementos-flex{
         width: 100%;
+    }
+    /* teste */
+    body{
+        background-attachment: scroll;
     }
     
     .elementos-flex{
