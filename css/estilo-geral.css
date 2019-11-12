@@ -35,7 +35,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed !important;
     background-size: cover !important;
-    background-position: center top !important;
     height: 100%;
 }
 /*-----BARRA DE NAVEGAÇÃO-----*/
@@ -269,7 +268,6 @@ strong{
 
 @media only screen and (max-width: 767px) {
     header{
-        background-size: auto;
         height: 100vh;
         display: flex;
         align-items: center;
