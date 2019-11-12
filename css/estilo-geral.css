@@ -278,10 +278,6 @@ strong{
     header .elementos-flex{
         width: 100%;
     }
-    /* teste */
-    body{
-        background-attachment: scroll;
-    }
     
     .elementos-flex{
         display: flex;
