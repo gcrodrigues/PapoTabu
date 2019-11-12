@@ -345,6 +345,46 @@ strong{
 
 }
 
+@media only screen and (max-height: 580px) {
+    header{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    header .elementos-flex{
+        width: 100%;
+        margin-top: -3em;
+    }
+    
+    .elementos-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .elementos-flex p{
+        margin: 1rem 0;
+        font-size: 12px;
+        width: 60%;
+    }
+    .elementos-flex img{
+        width: 50%;
+    }
+}
+@media only screen and (max-height: 460px) {
+    .elementos-flex p{
+        margin: 1rem 0;
+        font-size: 10px;
+        width: 70%;
+    }
+    .elementos-flex img{
+        width: 40%;
+    }
+}
 
 /* #Mobile (Landscape) - Note: Design for a width of 480px */
 
