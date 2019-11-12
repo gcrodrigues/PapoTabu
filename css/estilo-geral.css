@@ -267,6 +267,12 @@ strong{
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 
 @media only screen and (max-width: 767px) {
+    body{
+        width: 100vw;
+        height: auto;
+        background-size: cover;
+
+    }
     header{
         height: 100vh;
         display: flex;
