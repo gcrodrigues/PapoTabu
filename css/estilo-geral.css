@@ -45,41 +45,96 @@ li{
     color:#fff;
 }
 
-.flex-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
+.flex-nav {
     background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+    position: fixed;  
     width: 100%;
-    z-index: 9999;
-    bottom:0 ;
-}
+    z-index: 1000;
+  }
 
-.navegacao-site{
-    list-style: none;
-}
+  .flex-nav ul a{
+    text-decoration: none;
+  }
 
-.navegacao-site li{
-    display: inline-block;
+  .menu li {
     font-size: .7em;
-    padding: 20px 20px;
+    padding: 20px;
     cursor: pointer;
+    color: white;
     border-top: #111111 solid 4px;
     transition: .6s ease;
-    margin-left: -5px;
-}
+    /* white-space: nowrap; */
+  }
 
-.navegacao-site a{
-    transition:all 0.3s ease 0s;
-    text-decoration: none;
-    color: #fff;
-}
-
-.navegacao-site li:hover{
+  .menu li:hover{
     background-color: #242424;
     border-top: #B81A49 solid 4px;
-}
+  }
+
+  .toggle a {
+    font-size: 20px;
+  }
+  .button.secondary {
+    border-bottom: 1px #444 solid;
+  }
+  
+  /* Mobile menu */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: column;
+  }
+  .toggle {
+    order: 1;
+  }
+  .iten.button {
+    order: 2;
+  }
+  .iten {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+  }
+  .iten.active {
+    display: block;
+  }
+  
+  /* Navbar Toggle */
+  .toggle {
+    cursor:pointer;
+  }
+  .bars {
+    background: #999;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  .bars:before,
+  .bars:after {
+    background: #999;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  .bars:before {
+    top: 5px;
+  }
+  .bars:after {
+    top: -5px;
+  }
 
 #insta{
     transition:all 0.3s ease 0s;
@@ -303,4 +358,32 @@ strong{
 
 @media only screen and (max-width: 736px) and (max-height: 414px) {
     
+}
+
+
+  /* Desktop menu */
+  @media all and (min-width: 906px) {
+    .iten {
+        display: block;
+        width: auto;
+    }
+    .toggle {
+        display: none;
+    }
+    .logo {
+        order: 0;
+    }
+
+    .button {
+        order: 2;
+    }
+    .menu{
+        flex-direction: row;
+    }
+    .menu li {
+        padding: 20px;
+    }
+    .menu li.button {
+        padding-right: 0;
+    }
 }

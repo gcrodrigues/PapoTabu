@@ -1,4 +1,4 @@
-var nystories = document.querySelector(".main").offsetTop;
+var nystories = document.querySelector(".fade-header").offsetTop;
 window.onscroll = function() {
   if (window.pageYOffset > 0) {
         var opac = (window.pageYOffset / nystories);
@@ -7,10 +7,10 @@ window.onscroll = function() {
         
         if($(window).scrollTop()>80){
             titulo.style.color = "black";
-            titulo.style.transition = "color 1s"
+            titulo.style.transition = "color .5s"
         }else{
             titulo.style.color = "white";
-            titulo.style.transition = "color 1s"
+            titulo.style.transition = "color .5s"
         }
     }
 }

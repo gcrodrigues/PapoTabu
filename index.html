@@ -16,7 +16,7 @@
         <title>Papo Tabu</title>
 </head>
 <body>
-        <div class="flex-nav">
+        <!-- <div class="flex-nav">
             <a id="opcao1" href="#resp1" class="scroll" ><img src="images/logo-horizontal.svg" alt="Logo pequena da Papo Tabu"></a>
             <nav class="navegacao-site">
                 <ul id="Scroll">
@@ -27,13 +27,24 @@
                 </ul>
             </nav> 
             <a href="https://www.instagram.com/papo.tabu/"><img id="insta" onmousemove="logoBranco()" onmouseout="logoCinza()" class="ig-logo" src="images/logo-ig.png" alt="Logo do Instagram"></a>
-        </div>
+        </div> -->
+        <nav class="flex-nav">
+            <a href="#resp1" class="scroll"><img src="images/logo-horizontal.svg"></a>
+            <ul class="menu">
+                <a href="capitulo1.html"><li class="iten">DAS BOATES AOS CHATS</li></a>
+                <a href="capitulo2.html"><li class="iten">A DIFÍCIL VIDA FÁCIL</li></a>
+                <a href="capitulo3.html"><li class="iten">LOCAL DE FALA</li></a>
+                <a href="capitulo4.html"><li class="iten">A PRÓXIMA ESQUINA</li></a>
+                <li class="toggle"><span class="bars"></span></li>
+            </ul>
+            <a href="https://www.instagram.com/papo.tabu/"><img id="insta" onmousemove="logoBranco()" onmouseout="logoCinza()" class="ig-logo" src="images/logo-ig.png" alt="Logo do Instagram"></a>
+        </nav>
 
     <div class="animacao">    
         <header class="fadeout" id="resp1"> 
             <div class="elementos-flex">
                 <a href="index.html"><img class="logo-principal" src="images/Logo.svg" alt="Logo da página Papo Tabu"></a>
-                <p class="parag-intro-header">Ao andar pelas ruas do centro da cidade de Santos, é possível encontrar garotas de programa em portas de hotéis e balcões de bares. Porém, uma das profissões mais antigas do mundo agora conta com uma nova aliada: a internet.</p>
+                <p class="parag-intro-header fade-header">Ao andar pelas ruas do centro da cidade de Santos, é possível encontrar garotas de programa em portas de hotéis e balcões de bares. Porém, uma das profissões mais antigas do mundo agora conta com uma nova aliada: a internet.</p>
                 <p class="parag-intro-header">POR JACQUELINE GARCIA E JULIANA CORREIA</p>
             </div>
             <!--video-->
@@ -157,5 +168,6 @@
         <script src="script/aos.js"></script>
         <script src="script/insta.js"></script>
         <script src="script/fade.js"></script>
+        <script src="script/navbar.js"></script>
 </body>
 </html>
