@@ -278,7 +278,6 @@ strong{
     header .elementos-flex{
         width: 100%;
     }
-    
     .elementos-flex{
         display: flex;
         flex-direction: column;
