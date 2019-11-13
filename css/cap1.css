@@ -58,4 +58,17 @@ blockquote{
     color: #B81A49;
 }
 
+@media only screen and (max-width: 440px) {
+    blockquote{
+        background-color: #DEDEDE;
+        color: #666666;
+        width: 7em;
+        max-width: 7em;
+        height: 12em;
+        overflow: scroll; 
+        padding: 0 1em;
+        float: right;
+        margin-left: 1em;
+}
+
 

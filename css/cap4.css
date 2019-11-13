@@ -1,10 +1,11 @@
 .expediente{
     background-image: url("../images/bgcapitulo.png");
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: 2000px;
     color: white;
     padding: 2.5em;
     margin-top: 4rem;
+    padding-bottom: 5em;
 }
 
 .expediente .gold-font {
@@ -14,7 +15,7 @@
 
 .criadoras{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 30%;
     grid-template-rows: auto;
     align-items: center;
     justify-content: center;
@@ -33,16 +34,16 @@
     font-family: Roboto Slab;
     font-size: .8em;
     text-align: center;
-    width: 30%;
+    width: 70%;
     margin: 0 auto 1.5em auto;
 } 
 
 .ju {
-    margin-left: -8rem;
+    margin-left: auto;
 }
 
 .jac{
-    margin-right: -8rem;
+    margin-right: auto;
 }
 
 footer{
@@ -65,4 +66,60 @@ footer div p{
 #opcao6 li{
     background-color: #242424;
     border-top: #B81A49 solid 4px;
+}
+
+/*  #Mobile (Portrait) - Note: Design for a width of 1020px */
+
+@media only screen and (max-width: 1020px) {
+    .expediente{
+        background-image: url("../images/bgcapitulo.png");
+        background-repeat:no-repeat;
+        background-attachment: scroll;
+        color: white;
+        padding: 2.5em;
+        margin-top: 4rem;
+    }
+    .criadoras{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .criadoras img{
+        display: block;
+        height: 60%;
+        width: 60%;
+        margin: 0 auto 2em auto;;
+        border-radius: 100%;
+        box-shadow: 8px 8px 50px 5px rgba(211,211,211, 0.3);
+        
+    }
+    .criadoras p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .criadoras{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        grid-template-rows: auto;
+        z-index: 3000;
+        padding: 1em;
+
+    }
+    .criadoras img{
+        display: block;
+        height: 60%;
+        width: 60%;
+        margin: 0 auto 2em auto;;
+        border-radius: 100%;
+        box-shadow: 8px 8px 50px 5px rgba(211,211,211, 0.3);
+        
+    }
+    
 }
