@@ -13,16 +13,14 @@ var toggle = document.querySelector(".toggle");
 var controle = 0;
 toggle.addEventListener("click", function(){
     var nav = document.querySelector(".flex-nav");
+    var menu = document.querySelector(".menu");
     if(controle == 0){
-        var insta = document.querySelector("#insta");
-        insta.style.order= 1;
-        nav.classList.add("column-direction");
-        
+        menu.classList.add("change-order");
+        nav.classList.add("column-direction"); 
         controle++
     }else{
         nav.classList.remove("column-direction");
+        menu.classList.remove("change-order");
         controle--
     }
-    console.log(controle);
-    
 });

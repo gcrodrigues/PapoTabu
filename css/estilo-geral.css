@@ -67,7 +67,11 @@ li{
     color: white;
     border-top: #111111 solid 4px;
     transition: .6s ease;
-    /* white-space: nowrap; */
+    white-space: nowrap; 
+  }
+ .toggle:hover{
+    border-top: #111111 solid 4px !important;
+    background-color: #111111 !important;
   }
 
   .menu li:hover{
@@ -75,38 +79,27 @@ li{
     border-top: #B81A49 solid 4px;
   }
 
+ 
   .toggle a {
     font-size: 20px;
   }
 
   .column-direction{
     flex-direction: column;
-    padding: 10px;
+    padding-top: 20px;
   }
 
   .column-direction img{
       margin-bottom: 20px;
   }
 
+  .change-order{
+      order:2;
+  }  
+
   .column-direction .ig-logo{
-      margin-top: 20px;
-      margin-bottom: 0;
+      margin-bottom: 10px;
   }
-  /* .column-direction ul .toggle{
-      order: 3;
-  } */
-  
-  .li2{
-    padding:20px 32px;
-  }
-
-  .li3{
-    padding:20px 47px;
-  }
-
-  .li4{
-    padding:20px 29px;
- }
   /* Mobile menu */
   .menu {
     display: flex;
@@ -119,9 +112,7 @@ li{
   .toggle {
     order: 1;
   }
-  .iten.button {
-    order: 2;
-  }
+  
   .iten {
     width: 100%;
     text-align: center;
@@ -140,6 +131,7 @@ li{
     background: #999;
     display: inline-block;
     height: 2px;
+    margin-bottom: 5px;
     position: relative;
     transition: background .2s ease-out;
     width: 18px;
@@ -366,7 +358,6 @@ strong{
         height: 315px;
         align-content: center;
     }
-
 }
 
 @media only screen and (max-height: 580px) {
@@ -441,8 +432,6 @@ strong{
 
 }
 
-
-
   /* NavBar menu */
   @media all and (min-width: 906px) {
     .iten {
@@ -464,10 +453,32 @@ strong{
         order: 3;
     }
 
-    /* .menu li {
-        padding: 20px;
-    } */
     .menu li.button {
         padding-right: 0;
     }
+}
+
+@media all and (max-width: 906px){
+    .menu li:hover{
+        border-top: #111111 solid 4px;
+        background-color: #111111 !important;
+      }
+      
+      #opcao3 li{
+        border-top: #111111 solid 4px !important;
+        background-color: #111111 !important;
+      }
+
+      #opcao4 li{
+        border-top: #111111 solid 4px !important;
+        background-color: #111111 !important;
+      }
+      #opcao5 li{
+        border-top: #111111 solid 4px !important;
+        background-color: #111111 !important;
+      }
+      #opcao6 li{
+        border-top: #111111 solid 4px !important;
+        background-color: #111111 !important;
+      }
 }
