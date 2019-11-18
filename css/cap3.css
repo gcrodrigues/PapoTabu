@@ -129,3 +129,17 @@
     color: #fff;
     font-family: "Roboto";
 }
+
+@media only screen and (max-width: 767px) {
+    .citacoes-cap3 p{
+        font-size: 0.6em;
+    }
+    .citacoes-cap3 img{
+        width: 70%;
+        height: 70%;
+    }
+    .cit{
+        font-size: 0.6em;
+    }
+
+}
