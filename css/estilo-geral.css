@@ -78,10 +78,35 @@ li{
   .toggle a {
     font-size: 20px;
   }
-  .button.secondary {
-    border-bottom: 1px #444 solid;
+
+  .column-direction{
+    flex-direction: column;
+    padding: 10px;
   }
+
+  .column-direction img{
+      margin-bottom: 20px;
+  }
+
+  .column-direction .ig-logo{
+      margin-top: 20px;
+      margin-bottom: 0;
+  }
+  /* .column-direction ul .toggle{
+      order: 3;
+  } */
   
+  .li2{
+    padding:20px 32px;
+  }
+
+  .li3{
+    padding:20px 47px;
+  }
+
+  .li4{
+    padding:20px 29px;
+ }
   /* Mobile menu */
   .menu {
     display: flex;
@@ -428,18 +453,20 @@ strong{
         display: none;
     }
     .logo {
-        order: 0;
+        order: 1;
     }
 
-    .button {
-        order: 2;
-    }
     .menu{
         flex-direction: row;
+        order: 2;
     }
-    .menu li {
+    .insta{
+        order: 3;
+    }
+
+    /* .menu li {
         padding: 20px;
-    }
+    } */
     .menu li.button {
         padding-right: 0;
     }
