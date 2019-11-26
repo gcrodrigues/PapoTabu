@@ -211,9 +211,9 @@ a{
 }
 
 .main{
-    width: 31rem;
+    width: 55vw;
     margin: 0 auto;
-    text-align: start;
+    text-align: justify;
 }
 
 .main p{

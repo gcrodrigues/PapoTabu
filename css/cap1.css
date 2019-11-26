@@ -3,10 +3,13 @@
     margin: 2em 0;
 }
 
-/* .referencia-mapa{
-    list-style-image: url("../images/map-mark.png");
+.imagem-solta{
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin: 0 0 20px 20px;
+}
 
-} */
 
 .referencia-mapa li{
     list-style-type: inherit;

@@ -1,6 +1,4 @@
-
-
-.container {
+.linha {
     width: 80%;
     padding: 50px 0;
     margin: 50px auto;
@@ -8,7 +6,7 @@
     overflow: hidden;
  }
  
- .container:before {
+ .linha:before {
     content: '';
     position: absolute;
     top: 0;
@@ -76,7 +74,7 @@
  
  
  @media screen and (max-width: 768px) {
-    .container:before {
+    .linha:before {
        left: 8px;
        width: 2px;
     }
