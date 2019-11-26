@@ -246,6 +246,31 @@ strong{
     text-align: center;
 }
 
+.podcast{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.podcast div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.podcast div p{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    text-align: center;
+    color: #B81A49;
+    font-family: "FonteGold";
+    font-size: 1.2em;
+}
+
 /*-------CAP2 E CAP4------*/
 .citacao1{
     font-size: 1.3em;
