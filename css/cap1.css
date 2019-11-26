@@ -4,8 +4,8 @@
 }
 
 .imagem-solta{
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     float: right;
     margin: 0 0 20px 20px;
 }
@@ -60,6 +60,14 @@ blockquote{
 .rosa{
     color: #B81A49;
 }
+
+@media only screen and (max-width: 815px) {
+    .imagem-solta{
+        width: 57%;
+        height: 57%;
+    }
+}
+
 
 @media only screen and (max-width: 440px) {
     blockquote{

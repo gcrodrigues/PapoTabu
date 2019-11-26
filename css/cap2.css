@@ -44,3 +44,12 @@
     float: left;
     margin: 0  20px 20px 0;
 }
+
+@media only screen and (max-width: 440px) {
+    .imagem-solta{
+        width: 67%;
+        height: 67%;
+        float: left;
+        margin: 0  20px 20px 0;
+    }
+}
