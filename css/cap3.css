@@ -1,6 +1,6 @@
 .citacoes-cap3{
     width: 55%;
-    margin:5em auto;
+    margin:40px auto;
     line-height: 1.8;
 }
 
@@ -11,7 +11,7 @@
 .citacoes-cap3 p{
     font-family: "Roboto Slab";
     font-size: 1em;
-    text-align: justify;
+    text-align: start;
 }
 
 .div-cleone{
@@ -64,3 +64,20 @@
     }
 
 }
+
+@media only screen and (min-width: 1020px){
+    .div-cleone{
+        flex-direction: row;
+    }
+    .div-cleone img{
+        margin-right: 30px;
+    }
+
+    .div-aline img{
+        margin-left: 30px;
+    }
+
+    .div-aline{
+        flex-direction: row-reverse;
+    }
+} 

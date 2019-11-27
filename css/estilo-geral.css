@@ -213,7 +213,7 @@ a{
 .main{
     width: 55vw;
     margin: 0 auto;
-    text-align: justify;
+    text-align: start;
     overflow-x: hidden;
 }
 
