@@ -39,17 +39,18 @@
 }
 
 .imagem-solta{
-    width: 60%;
-    height: 60%;
+    width: 65%;
+    height: 65%;
     float: left;
-    margin: 0  20px 20px 0;
+    margin: 0  20px 10px 0;
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 767px) {
     .imagem-solta{
-        width: 67%;
-        height: 67%;
-        float: left;
-        margin: 0  20px 20px 0;
+        width: 80%;
+        height: 80%;
+        float: none;
+        display: block;
+        margin: 0 auto;
     }
 }
