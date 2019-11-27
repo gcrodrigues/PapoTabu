@@ -279,27 +279,16 @@ strong{
     font-family:"Roboto Slab";
     line-height: 1.2;
     position: relative;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
 }
 
-.citacao1::before{
-    content: '"';
-    font-family: "Roboto Slab";
-    font-size: 2em;
+.aspas{
     color: #B81A49;
-    position: absolute;
-    left: -29px;
-    top: -10px;
+    font-size: 1.5em;
 }
 
-.citacao1::after{
-    content: '"';
-    font-family: "Roboto Slab";
-    font-size: 2em;
-    color: #B81A49;
-    position: absolute;
-    right: -30px;
-    bottom: -18px;
-} 
 .video{
     width: 100%;
     margin: 2em 0 2em 0;

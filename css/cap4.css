@@ -26,7 +26,6 @@
     margin: 0 auto 2em auto;;
     border-radius: 100%;
     box-shadow: 8px 8px 50px 5px rgba(211,211,211, 0.3);
-    
 }
 
 .criadoras p{
@@ -34,24 +33,16 @@
     font-family: Roboto Slab;
     font-size: .8em;
     text-align: center;
-    width: 70%;
+    width: 75%;
     margin: 0 auto 1.5em auto;
 } 
-
-.ju {
-    margin-left: auto;
-}
-
-.jac{
-    margin-right: auto;
-}
 
 footer{
     margin-top: 4em;
 }   
 
 footer div{
-    width: 75%;
+    width: 35%;
     margin: 0 auto 7em auto; 
     text-align: center;
 }
@@ -89,15 +80,15 @@ footer div p{
     
     .criadoras img{
         display: block;
-        height: 60%;
-        width: 60%;
+        height: 80%;
+        width: 80%;
         margin: 0 auto 2em auto;;
         border-radius: 100%;
         box-shadow: 8px 8px 50px 5px rgba(211,211,211, 0.3);
         
     }
     .criadoras p{
-        font-size: 14px;
+        font-size: .8em;
     }
 }
 
@@ -114,12 +105,18 @@ footer div p{
     }
     .criadoras img{
         display: block;
-        height: 60%;
-        width: 60%;
+        height: 70%;
+        width: 70%;
         margin: 0 auto 2em auto;;
         border-radius: 100%;
         box-shadow: 8px 8px 50px 5px rgba(211,211,211, 0.3);
         
     }
-    
+    footer div{
+        width: 55%;
+    }
+
+    .criadoras p{
+        width: 100%;
+    }
 }
