@@ -73,9 +73,9 @@ blockquote{
     blockquote{
         background-color: #DEDEDE;
         color: #666666;
-        width: 7em;
-        max-width: 7em;
-        height: 12em;
+        width: 10em;
+        max-width: 10em;
+        height: 10em;
         overflow: scroll; 
         padding: 0 1em;
         float: right;
