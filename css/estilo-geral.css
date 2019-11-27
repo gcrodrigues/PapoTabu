@@ -252,6 +252,7 @@ strong{
     height: 250px;
     display: flex;
     align-items: center;
+    background-color: #B81A49;
 }
 
 .podcast div{
@@ -267,7 +268,7 @@ strong{
     margin-bottom: 1.5rem;
     width: 100%;
     text-align: center;
-    color: #B81A49;
+    color: #fff;
     font-family: "FonteGold";
     font-size: 1.8em;
 }

@@ -3,12 +3,6 @@
     border-top: #B81A49 solid 4px;
 }
 
-.teste{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
 .cover img{
     float: left;
     width: 100%;
