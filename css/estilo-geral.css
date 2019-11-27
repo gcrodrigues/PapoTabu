@@ -211,9 +211,10 @@ a{
 }
 
 .main{
-    width: 55vw;
+    width: 31rem;
     margin: 0 auto;
     text-align: justify;
+    overflow-x: hidden;
 }
 
 .main p{
