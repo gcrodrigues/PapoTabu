@@ -1,11 +1,13 @@
 @font-face{
     font-family: 'FonteGold';
     src: url('../font/GoldUnderTheMud-Regular.ttf');
+    font-display: swap;
 }
 
 @font-face{
     font-family: 'RobotoBlack';
     src: url('../font/Roboto-Black.ttf');
+    font-display: swap;
 }
 
 *{
