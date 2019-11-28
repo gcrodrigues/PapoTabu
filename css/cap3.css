@@ -53,14 +53,14 @@
 
 @media only screen and (max-width: 767px) {
     .citacoes-cap3 p{
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     .citacoes-cap3 img{
         width: 70%;
         height: 70%;
     }
     .cit{
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
 }

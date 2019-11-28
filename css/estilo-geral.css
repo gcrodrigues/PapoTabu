@@ -221,7 +221,7 @@ a{
     line-height: 1.5;
     margin:2rem 0;
     font-family: "Roboto Slab", Arial, sans-serif;
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .increase-letters::first-letter{
@@ -238,7 +238,7 @@ strong{
 
 .prox-cap{
     font-size: 2em;
-    margin:4rem 0;
+    margin:2rem 0 3em 0;
 }
 
 .gold-font{
@@ -279,7 +279,7 @@ strong{
     font-family:"Roboto Slab";
     line-height: 1.2;
     position: relative;
-    width: 70%;
+    width: 90%;
     display: block;
     margin: 0 auto;
 }

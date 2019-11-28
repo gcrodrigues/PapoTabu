@@ -15,7 +15,7 @@
     list-style-type: inherit;
     color: #111111;
     margin: 2em 0;
-    font-size: 0.8em;
+    font-size: .9em;
     line-height: 1.5;
     height: 100px;
     
@@ -40,13 +40,13 @@ blockquote{
 
 .fas{
     font-size: 48px;
-    left: -440px;
+    left: -440px; 
     float: left;
     margin-right:1rem;
 }
 
 .laranja{
-    color: orange;
+    color: #FF4500;
 }
 
 .marrom{
@@ -54,7 +54,7 @@ blockquote{
 }
 
 .roxo{
-    color: purple;
+    color:#8B008B;
 }
 
 .rosa{

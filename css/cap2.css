@@ -39,8 +39,38 @@
     margin: 0  20px 10px 0;
 }
 
+.imagem-solta-1{
+    width: 70%;
+    height: 70%;
+    float: right;
+    margin: 0  0 10px 20px;
+}
+
+.imagem-solta-2{
+    width: 67%;
+    height: 67%;
+    float: left;
+    margin: 0  20px 10px 0;
+}
+
 @media only screen and (max-width: 767px) {
     .imagem-solta{
+        width: 80%;
+        height: 80%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .imagem-solta-1{
+        width: 80%;
+        height: 80%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .imagem-solta-2{
         width: 80%;
         height: 80%;
         float: none;

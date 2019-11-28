@@ -1,7 +1,7 @@
 .expediente{
     background-image: url("../images/bgcapitulo.png");
     background-repeat:no-repeat;
-    background-size: 2000px;
+    background-size: cover;
     color: white;
     padding: 2.5em;
     margin-top: 4rem;
@@ -65,7 +65,7 @@ footer div p{
     .expediente{
         background-image: url("../images/bgcapitulo.png");
         background-repeat:no-repeat;
-        background-attachment: scroll;
+        
         color: white;
         padding: 2.5em;
         margin-top: 4rem;
