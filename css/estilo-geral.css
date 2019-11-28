@@ -71,6 +71,11 @@ li{
     transition: .6s ease;
     white-space: nowrap; 
   }
+
+  .menu li a{
+      color: #fff;
+  }
+
  .toggle:hover{
     border-top: #111111 solid 4px !important;
     background-color: #111111 !important;
